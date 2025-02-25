@@ -2,3 +2,15 @@ spring:
   profiles:
     # 默认激活 dev 环境
     active: dev
+
+jwt:
+  # 签发人
+  issuer: nuyoahch
+  # 秘钥
+  secret: FLfMwR7dHebBTrNjYuVfSF2hQrCdgq/Hrh0DUtscdAA/rbUS3Ql8g63+1YKKazhwMmDg4xyfyC9BVlrH5+130g==
+  # token 过期时间（单位：分钟） 24*60
+  tokenExpireTime: 1440
+  # token 请求头中的 key 值
+  tokenHeaderKey: Authorization
+  # token 请求头中的 value 值前缀
+  tokenPrefix: Bearer

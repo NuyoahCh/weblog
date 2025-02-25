@@ -18,6 +18,19 @@
     </properties>
 
     <dependencies>
+
+        <!-- Spring Security -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.nuyoahch</groupId>
+            <artifactId>weblog-module-jwt</artifactId>
+        </dependency>
+
         <!-- knife4j -->
         <dependency>
             <groupId>com.github.xiaoymin</groupId>
