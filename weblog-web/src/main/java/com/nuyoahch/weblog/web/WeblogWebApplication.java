@@ -2,6 +2,7 @@ package com.nuyoahch.weblog.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @program: weblog
@@ -10,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @description: Web 启动类
  */
 @SpringBootApplication
+@ComponentScan({"com.nuyoahch.weblog.*"})
 public class WeblogWebApplication {
     public static void main(String[] args) {
         SpringApplication.run(WeblogWebApplication.class, args);
